@@ -43,7 +43,7 @@ L.Icon.Default.mergeOptions({
   shadowUrl: require("leaflet/dist/images/marker-shadow.png"),
 });
 
-const API_BASE_URL = "http://localhost:5000/api/airquality";
+const API_BASE_URL = "https://forecast-app-3a69.onrender.com/";
 
 export default function HomePage() {
   const [city, setCity] = useState("");
